@@ -56,7 +56,7 @@ function fizzbuzz(aString){
 // and “fizzbuzz” accordingly
     var myInt = parseInt(aString);
 
-    for (var i = 0; i < myInt; i++){
+    for (var i = 1; i < myInt; i++){
         //is i evenly divisible by 3? result = "fizz"
         if (i % 3 === 0 && i % 5 === 0) {
             result = "FizzBuzz";
